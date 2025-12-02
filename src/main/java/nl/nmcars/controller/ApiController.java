@@ -10,7 +10,9 @@ import java.util.List;
 @RequestMapping("/api")
 @CrossOrigin(origins = {
         "http://localhost:5173", // local dev frontend
-        "https://nmcars-frontend.onrender.com" // deployed frontend
+        "https://nmcars-frontend.onrender.com",// deployed frontend
+        "https://nmcars.net",
+        "https://www.nmcars.net"
 })
 public class ApiController {
 
